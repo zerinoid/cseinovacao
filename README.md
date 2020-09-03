@@ -1,6 +1,6 @@
 Olá, ficamos felizes com o seu interesse em trabalhar conosco =]
 
-O objetivo do teste é conhecermos um pouco melhor de como você desenvolve o seu código e avaliarmos se o seu perfil encaixa com a oportunidade em nosso time.
+O objetivo desse teste é conhecermos um pouco melhor como você desenvolve o seu código e assim avaliarmos se o seu perfil encaixa com a oportunidade em nosso time.
 
 Para realizar o seu teste você deve clonar esse repositório e ao final submeter um Pull Request com o código desenvolvido. O teste consiste em desenvolver um HTML e CSS responsivo, utilizando como base a grid do bootstrap, seguindo o layout do arquivo "layout-test.xd".
 
