@@ -1,10 +1,5 @@
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import styles from "./banner.module.scss"
 
 export default function Banner() {
-    return (
-        <Row>
-            <Col>Banner</Col>
-        </Row>
-    )
+    return <div className={styles.banner}>texto etc</div>
 }
