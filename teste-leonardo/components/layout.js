@@ -13,7 +13,7 @@ export default function Layout({ children }) {
                 {/* <link rel="icon" href="/icon.png" /> */}
                 <meta name="description" content="Teste petz" />
             </Head>
-            <Row>
+            <Row className={styles.columnDir}>
                 <Navbar className={styles.navbar} sticky="top">
                     <Navbar.Brand href="#">
                         <img alt="Teste Inovação Logo" src="/images/LOGO.svg" />
