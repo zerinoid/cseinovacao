@@ -9,8 +9,11 @@ export default function Home() {
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <p>conteudo principal</p>
+            <div>banner</div>
+            <div>carousel</div>
+            <div>feedback</div>
+            <div>a equipe</div>
+            <div>recomende</div>
         </Layout>
     )
 }
