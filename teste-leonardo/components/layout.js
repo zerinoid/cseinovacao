@@ -10,7 +10,7 @@ import Col from "react-bootstrap/Col"
 
 export default function Layout({ children, home }) {
     return (
-        <Container>
+        <Container fluid>
             <Head>
                 {/* <link rel="icon" href="/icon.png" /> */}
                 <meta name="description" content="Teste petz" />
