@@ -1,14 +1,11 @@
 import Head from "next/head"
-import Link from "next/link"
 import styles from "./layout.module.scss"
 import Footer from "./footer"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
     return (
         <Container fluid>
             <Head>
