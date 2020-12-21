@@ -1,6 +1,7 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.scss"
 import Layout from "../components/layout"
+import Banner from "../components/banner"
 
 export default function Home() {
     return (
@@ -9,7 +10,7 @@ export default function Home() {
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div>banner</div>
+            <Banner />
             <div>carousel</div>
             <div>feedback</div>
             <div>a equipe</div>
