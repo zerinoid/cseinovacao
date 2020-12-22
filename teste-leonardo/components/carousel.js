@@ -16,15 +16,22 @@ export default function CarouselSection() {
     return (
         <div className={styles.carousel}>
             <div className="max-width">
-                <h4>Recomendações:</h4>
+                <h2>Recomendações:</h2>
                 <Slider {...slickOptions}>
-                    <Item />
-                    <div>
-                        <p>22222222222222</p>
-                    </div>
-                    <div>
-                        <p>3333333333333</p>
-                    </div>
+                    <Item n={1} title={"Organize seu tempo"}>
+                        Verifique quanto tempo você tem disponível para realizar
+                        o teste com eficiência então crie pequenas metas para
+                        manter o ritmo.
+                    </Item>
+                    <Item n={2} title={"Tire suas dúvidas"}>
+                        Se houver alguma dúvida, procure o aplicador do teste,
+                        assim você terá melhores chances de entregar o que foi
+                        proposto.
+                    </Item>
+                    <Item n={3} title={"Seja Criativo"}>
+                        Existem várias formas de resolver uma questão de html e
+                        css ou javascript, mostre que você domina a melhor.
+                    </Item>
                 </Slider>
             </div>
         </div>
