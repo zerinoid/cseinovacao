@@ -1,12 +1,14 @@
-import React from "react"
 import styles from "./carousel.module.scss"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import Item from "./carouselItem"
 
 export default function CarouselSection() {
     var slickOptions = {
-        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: "60px",
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: false,
         dots: false
