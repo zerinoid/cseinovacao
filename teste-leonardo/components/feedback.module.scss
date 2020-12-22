@@ -2,6 +2,11 @@
     background: url(/images/bg-feedback.jpg) left center/contain no-repeat;
     min-height: 30vw;
     padding-top: 5vw;
+}
+
+.content {
+    float: right;
+    width: 33%;
     display: flex;
     justify-content: center;
     flex-direction: column;
