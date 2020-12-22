@@ -2,7 +2,7 @@ import Head from "next/head"
 import styles from "../styles/Home.module.scss"
 import Layout from "../components/layout"
 import Banner from "../components/banner"
-import Carousel from "../components/carousel"
+import CarouselSection from "../components/carousel"
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Banner />
-            <Carousel />
+            <CarouselSection />
             <div>feedback</div>
             <div>a equipe</div>
             <div>recomende</div>
