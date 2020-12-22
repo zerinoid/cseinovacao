@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.scss"
 import Layout from "../components/layout"
 import Banner from "../components/banner"
 import CarouselSection from "../components/carousel"
+import Feedback from "../components/feedback"
 
 export default function Home() {
     return (
@@ -13,7 +14,7 @@ export default function Home() {
             </Head>
             <Banner />
             <CarouselSection />
-            <div>feedback</div>
+            <Feedback />
             <div>a equipe</div>
             <div>recomende</div>
         </Layout>
