@@ -18,9 +18,7 @@ export default function CarouselSection() {
             <div className="max-width">
                 <h4>Recomendações:</h4>
                 <Slider {...slickOptions}>
-                    <div>
-                        <p>111111111111</p>
-                    </div>
+                    <Item />
                     <div>
                         <p>22222222222222</p>
                     </div>

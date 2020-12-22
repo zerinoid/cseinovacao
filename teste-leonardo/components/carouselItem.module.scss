@@ -1,0 +1,20 @@
+.carContainer {
+    border: solid 1px;
+    max-width: 320px;
+}
+
+.colNumber,
+.colTitle {
+    padding: 5px 10px;
+}
+
+.colNumber {
+    border-right: solid 1px;
+    flex: 0 1;
+    display: flex;
+}
+
+.rowBody {
+    border-top: 1px solid;
+    padding: 18px;
+}
