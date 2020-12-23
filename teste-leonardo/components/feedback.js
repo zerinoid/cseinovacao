@@ -8,10 +8,14 @@ export default function Feedback() {
         <div className="max-width">
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <h3>Quer um feedback?</h3>
-                    <p>Preencha seu email abaixo para receber</p>
-                    <p>o feedback da sua avaliação.</p>
-                    <p>Estamos tocendo por você!</p>
+                    <h3 className="mb-4">Quer um feedback?</h3>
+                    <p className="mb-5">
+                        Preencha seu email abaixo para receber
+                        <br />
+                        o feedback da sua avaliação.
+                        <br />
+                        Estamos tocendo por você!
+                    </p>
                     <InputGroup>
                         <InputGroup className="mb-3">
                             <FormControl
