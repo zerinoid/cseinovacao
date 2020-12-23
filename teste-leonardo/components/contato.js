@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import Form from "react-bootstrap/Form"
 
 export default function Contato() {
     return (
@@ -15,7 +16,27 @@ export default function Contato() {
                         nosso time.
                     </p>
                 </Col>
-                <Col>Form</Col>
+                <Col>
+                    <Form>
+                        <Form.Row className="mb-3">
+                            <Col>
+                                <Form.Control placeholder="Nome" />
+                            </Col>
+                            <Col>
+                                <Form.Control placeholder="Sobrenome" />
+                            </Col>
+                        </Form.Row>
+                        <Form.Row>
+                            <Col>
+                                <Form.Control
+                                    as="textarea"
+                                    rows={3}
+                                    placeholder="Comentários"
+                                />
+                            </Col>
+                        </Form.Row>
+                    </Form>
+                </Col>
             </Row>
             <div></div>
         </Container>
