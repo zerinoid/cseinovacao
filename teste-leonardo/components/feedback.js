@@ -20,7 +20,9 @@ export default function Feedback() {
                                 aria-describedby="basic-addon2"
                             />
                             <InputGroup.Append>
-                                <Button>ENVIAR</Button>
+                                <Button className={styles.enviar}>
+                                    ENVIAR
+                                </Button>
                             </InputGroup.Append>
                         </InputGroup>
                     </InputGroup>
