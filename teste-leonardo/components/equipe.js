@@ -14,12 +14,15 @@ export default function Equipe() {
     })
 
     return (
-        <Masonry
-            breakpointCols={4}
-            className="my-masonry-grid"
-            columnClassName="my-masonry-grid_column"
-        >
-            {items}
-        </Masonry>
+        <div className="max-width">
+            <h3 className="text-center mb-4">A equipe</h3>
+            <Masonry
+                breakpointCols={4}
+                className="my-masonry-grid"
+                columnClassName="my-masonry-grid_column"
+            >
+                {items}
+            </Masonry>
+        </div>
     )
 }
