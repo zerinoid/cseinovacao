@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Banner from "../components/banner"
 import CarouselSection from "../components/carousel"
 import Feedback from "../components/feedback"
+import Equipe from "../components/equipe"
 
 export default function Home() {
     return (
@@ -15,7 +16,7 @@ export default function Home() {
             <Banner />
             <CarouselSection />
             <Feedback />
-            <div>a equipe</div>
+            <Equipe />
             <div>recomende</div>
         </Layout>
     )
