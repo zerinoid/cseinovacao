@@ -81,7 +81,7 @@ export default function Equipe() {
         }
     ]
 
-    items = items.map(function (item) {
+    items = items.map(item => {
         return (
             <div key={item.id} style={{ paddingTop: item.padding }}>
                 <h3>
