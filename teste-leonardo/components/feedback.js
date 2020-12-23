@@ -20,9 +20,7 @@ export default function Feedback() {
                                 aria-describedby="basic-addon2"
                             />
                             <InputGroup.Append>
-                                <Button variant="outline-secondary">
-                                    Enviar
-                                </Button>
+                                <Button>ENVIAR</Button>
                             </InputGroup.Append>
                         </InputGroup>
                     </InputGroup>
