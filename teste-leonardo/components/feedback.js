@@ -24,9 +24,7 @@ export default function Feedback() {
                                 aria-describedby="basic-addon2"
                             />
                             <InputGroup.Append>
-                                <Button className={styles.enviar}>
-                                    ENVIAR
-                                </Button>
+                                <Button className="px-4">ENVIAR</Button>
                             </InputGroup.Append>
                         </InputGroup>
                     </InputGroup>
