@@ -7,8 +7,7 @@ import Item from "./carouselItem"
 export default function CarouselSection() {
     var slickOptions = {
         centerMode: true,
-        centerPadding: "60px",
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         infinite: false,
         dots: false
