@@ -1,0 +1,6 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-light .navbar-nav .nav-link {
+    color: $text-color;
+}
