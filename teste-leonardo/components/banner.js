@@ -4,18 +4,20 @@ export default function Banner() {
     return (
         <div className={styles.banner}>
             <div className="max-width">
-                <p>
-                    Criamos produtos <span>incríveis</span>
-                </p>
-                <p>
-                    que vão <strong>impactar</strong> o mercado.
-                </p>
-                <p>
-                    <strong>Você está pronto</strong> para
-                </p>
-                <p>
-                    <strong>fazer parte desse time?</strong>
-                </p>
+                <div className={styles.paragraph}>
+                    <p className={`mb-1 ${styles.xs}`}>
+                        Criamos produtos <span>incríveis</span>
+                    </p>
+                    <p className={`mb-2 ml-5 ${styles.xs}`}>
+                        que vão <strong>impactar</strong> o mercado.
+                    </p>
+                    <p className={`mb-0 ${styles.sm}`}>
+                        <strong>Você está pronto</strong> para
+                    </p>
+                    <p className={`ml-3 ${styles.lg}`}>
+                        <strong>fazer parte desse time?</strong>
+                    </p>
+                </div>
             </div>
         </div>
     )
