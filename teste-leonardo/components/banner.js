@@ -6,7 +6,8 @@ export default function Banner() {
             <div className="max-width">
                 <div className={styles.paragraph}>
                     <p className={`mb-1 ${styles.xs}`}>
-                        Criamos produtos <span>incríveis</span>
+                        Criamos produtos{" "}
+                        <span className={styles.highlight}>incríveis</span>
                     </p>
                     <p className={`mb-2 ml-5 ${styles.xs}`}>
                         que vão <strong>impactar</strong> o mercado.
