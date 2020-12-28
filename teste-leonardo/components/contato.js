@@ -9,7 +9,7 @@ export default function Contato() {
     return (
         <Container className={`max-width ${styles.container}`}>
             <Row>
-                <Col>
+                <Col md={6}>
                     <h3 className="mb-4">Gostou do teste?</h3>
                     <p>
                         Conte para nós oque você gostou no teste e o que você
@@ -18,7 +18,7 @@ export default function Contato() {
                         nosso time.
                     </p>
                 </Col>
-                <Col>
+                <Col md={6}>
                     <Form>
                         <Form.Row className="mb-3">
                             <Col>
