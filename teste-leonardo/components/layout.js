@@ -26,13 +26,16 @@ export default function Layout({ children }) {
                 <Navbar.Brand href="#">
                     <img alt="Teste Inovação Logo" src="/images/LOGO.svg" />
                 </Navbar.Brand>
-                <Nav className="ml-auto">
-                    <Nav.Link href="#">O desafio</Nav.Link>
-                    <Nav.Link href="#">Recomendações</Nav.Link>
-                    <Nav.Link href="#">Feedback</Nav.Link>
-                    <Nav.Link href="#">A equipe</Nav.Link>
-                    <Nav.Link href="#">Comentários</Nav.Link>
-                </Nav>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse>
+                    <Nav className="ml-auto">
+                        <Nav.Link href="#">O desafio</Nav.Link>
+                        <Nav.Link href="#">Recomendações</Nav.Link>
+                        <Nav.Link href="#">Feedback</Nav.Link>
+                        <Nav.Link href="#">A equipe</Nav.Link>
+                        <Nav.Link href="#">Comentários</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
             <Container fluid>
                 <Row>

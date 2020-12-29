@@ -1,7 +1,19 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/breakpoints";
+
 .navbar {
     height: 76px;
     background-color: white;
     filter: drop-shadow(0 -12px 13px black);
+
+    img {
+        width: 55vw;
+
+        @include media-breakpoint-up(sm) {
+            width: unset;
+        }
+    }
 }
 
 .columnDir {
