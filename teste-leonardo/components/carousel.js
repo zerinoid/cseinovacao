@@ -24,6 +24,12 @@ export default function Carousel() {
             title: "Seja Criativo",
             content:
                 " Existem várias formas de resolver uma questão de html e css ou javascript, mostre que você domina a melhor. "
+        },
+        {
+            id: 4,
+            title: "Nullam rutrum",
+            content:
+                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus."
         }
     ]
     const isDesktop = useMediaQuery({ query: "(min-width: 576px)" })
@@ -37,7 +43,7 @@ export default function Carousel() {
                 className={className}
                 style={{
                     ...style,
-                    right: isDesktop ? "14px" : 0,
+                    right: isDesktop ? 0 : 0,
                     height: "auto",
                     width: 22
                 }}
@@ -66,8 +72,10 @@ export default function Carousel() {
     }
 
     var slickOptions = {
+        centerMode: true,
+        centerPadding: "160px",
         slidesToShow: 2,
-        infinite: false,
+        infinite: true,
         slidesToScroll: 1,
         dots: false,
         nextArrow: <NextArrow />,
@@ -76,6 +84,7 @@ export default function Carousel() {
             {
                 breakpoint: 576,
                 settings: {
+                    centerMode: false,
                     slidesToShow: 1
                 }
             }
