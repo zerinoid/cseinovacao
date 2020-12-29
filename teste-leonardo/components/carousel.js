@@ -5,12 +5,51 @@ import "slick-carousel/slick/slick-theme.css"
 import Item from "./carouselItem"
 
 export default function Carousel() {
+    const NextArrow = props => {
+        const { className, style, onClick } = props
+        return (
+            <img
+                src="/images/arrow-right.svg"
+                alt="next"
+                className={className}
+                style={{
+                    ...style,
+                    right: "0.6vw",
+                    width: "1vw",
+                    height: "auto"
+                }}
+                onClick={onClick}
+            />
+        )
+    }
+
+    const PrevArrow = props => {
+        const { className, style, onClick } = props
+        return (
+            <img
+                alt="prev"
+                src="/images/arrow-left.svg"
+                className={className}
+                style={{
+                    ...style,
+                    zIndex: "1",
+                    left: "0.6vw",
+                    width: "1vw",
+                    height: "auto"
+                }}
+                onClick={onClick}
+            />
+        )
+    }
+
     var slickOptions = {
         centerMode: true,
         slidesToShow: 2,
         slidesToScroll: 3,
         infinite: false,
         dots: false,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
         responsive: [
             {
                 breakpoint: 576,
