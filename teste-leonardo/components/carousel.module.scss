@@ -2,7 +2,13 @@
 
 .carousel {
     background-color: $secondary;
-    min-height: 25.8vw;
     padding: 40px 0;
     color: white;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .carousel {
+        height: 19rem;
+    }
 }
