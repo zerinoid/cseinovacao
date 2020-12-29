@@ -14,9 +14,9 @@ export default function Carousel() {
                 className={className}
                 style={{
                     ...style,
-                    right: "0.6vw",
-                    width: "1vw",
-                    height: "auto"
+                    right: "14px",
+                    height: "auto",
+                    width: 22
                 }}
                 onClick={onClick}
             />
@@ -33,9 +33,9 @@ export default function Carousel() {
                 style={{
                     ...style,
                     zIndex: "1",
-                    left: "0.6vw",
-                    width: "1vw",
-                    height: "auto"
+                    left: 0,
+                    height: "auto",
+                    width: 22
                 }}
                 onClick={onClick}
             />
