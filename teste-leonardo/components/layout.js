@@ -23,19 +23,21 @@ export default function Layout({ children }) {
                 expand="lg"
                 sticky="top"
             >
-                <Navbar.Brand href="#">
-                    <img alt="Teste Inovação Logo" src="/images/LOGO.svg" />
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse>
-                    <Nav className="ml-auto">
-                        <Nav.Link href="#">O desafio</Nav.Link>
-                        <Nav.Link href="#">Recomendações</Nav.Link>
-                        <Nav.Link href="#">Feedback</Nav.Link>
-                        <Nav.Link href="#">A equipe</Nav.Link>
-                        <Nav.Link href="#">Comentários</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+                <div className="max-width nav-flex">
+                    <Navbar.Brand href="#">
+                        <img alt="Teste Inovação Logo" src="/images/LOGO.svg" />
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse>
+                        <Nav className="ml-auto">
+                            <Nav.Link href="#">O desafio</Nav.Link>
+                            <Nav.Link href="#">Recomendações</Nav.Link>
+                            <Nav.Link href="#">Feedback</Nav.Link>
+                            <Nav.Link href="#">A equipe</Nav.Link>
+                            <Nav.Link href="#">Comentários</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </div>
             </Navbar>
             <main>
                 <Container fluid>
