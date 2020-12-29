@@ -12,6 +12,10 @@ export default function Layout({ children }) {
             <Head>
                 {/* <link rel="icon" href="/icon.png" /> */}
                 <meta name="description" content="Teste petz" />
+                <meta
+                    name="viewport"
+                    content="width=device-width,initial-scale=1"
+                />
             </Head>
             <Row className={styles.columnDir}>
                 <Navbar className={styles.navbar} sticky="top">
