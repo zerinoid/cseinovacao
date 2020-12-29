@@ -1,12 +1,12 @@
 .container {
-    background: url(/images/bg-feedback.jpg) left center/contain no-repeat;
+    background: url(/images/bg-feedback.jpg) 10% center/contain no-repeat;
     min-height: 30vw;
     padding-top: 5vw;
+    width: 100%;
 }
 
 .content {
     float: right;
-    width: 33%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,5 +14,11 @@
 
     p {
         text-align: right;
+    }
+}
+
+@media (min-width: 576px) {
+    .content {
+        width: 50%;
     }
 }

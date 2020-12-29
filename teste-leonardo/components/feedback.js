@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button"
 
 export default function Feedback() {
     return (
-        <div className="max-width">
-            <div className={styles.container}>
+        <div className={styles.container}>
+            <div className="max-width">
                 <div className={styles.content}>
                     <h3 className="mb-4">Quer um feedback?</h3>
                     <p className="mb-5">
