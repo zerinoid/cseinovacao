@@ -5,7 +5,7 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className="max-width">
                 <div className={styles.paragraph}>
-                    <p className={`mb-1 ${styles.xs}`}>
+                    <p className={`mb-2 ${styles.xs}`}>
                         Criamos produtos{" "}
                         <span className={styles.highlight}>incríveis</span>
                     </p>
