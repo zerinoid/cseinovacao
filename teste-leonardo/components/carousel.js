@@ -3,13 +3,10 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Item from "./carouselItem"
-import isMobile from "ismobilejs"
+import { useMediaQuery } from "react-responsive"
 
 export default function Carousel() {
-    if (typeof window !== "undefined") {
-        var checkMobile = isMobile(window.navigator).phone
-    }
-    console.log(checkMobile)
+    const isDesktop = useMediaQuery({ query: "(min-width: 576px)" })
 
     const NextArrow = props => {
         const { className, style, onClick } = props
@@ -20,7 +17,7 @@ export default function Carousel() {
                 className={className}
                 style={{
                     ...style,
-                    right: checkMobile ? 0 : "14px",
+                    right: isDesktop ? "14px" : 0,
                     height: "auto",
                     width: 22
                 }}
