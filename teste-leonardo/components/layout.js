@@ -37,12 +37,14 @@ export default function Layout({ children }) {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            <Container fluid>
-                <Row>
-                    <main>{children}</main>
-                    <Footer></Footer>
-                </Row>
-            </Container>
+            <main>
+                <Container fluid>
+                    <Row>
+                        {children}
+                        <Footer></Footer>
+                    </Row>
+                </Container>
+            </main>
         </>
     )
 }
