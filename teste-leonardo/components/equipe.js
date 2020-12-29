@@ -96,7 +96,7 @@ export default function Equipe() {
         <div className="max-width">
             <h3 className="text-center mb-4">A equipe</h3>
             <Masonry
-                breakpointCols={4}
+                breakpointCols={{ default: 4, 576: 1 }}
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
             >
