@@ -46,10 +46,9 @@ export default function Carousel() {
     }
 
     var slickOptions = {
-        centerMode: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
         infinite: false,
+        slidesToScroll: 1,
         dots: false,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
