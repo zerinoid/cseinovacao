@@ -21,6 +21,22 @@ a {
     box-sizing: border-box;
 }
 
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.35rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
 .nav-flex {
     display: flex;
     justify-content: space-between;
