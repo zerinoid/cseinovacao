@@ -8,7 +8,7 @@ export default function Feedback() {
         <div className={styles.container}>
             <div className="max-width">
                 <div className={styles.content}>
-                    <h3 className="mb-4">Quer um feedback?</h3>
+                    <h5 className="mb-4">Quer um feedback?</h5>
                     <p className="mb-5">
                         Preencha seu email abaixo para receber
                         <br />

@@ -84,10 +84,13 @@ export default function Equipe() {
     items = items.map(item => {
         return (
             <div key={item.id} style={{ paddingTop: item.padding }}>
-                <h3>
+                <h6 className="mb-1">
                     {item.name}, {item.age}
-                </h3>
-                <p dangerouslySetInnerHTML={{ __html: item.role }} />
+                </h6>
+                <p
+                    className={styles.titulo}
+                    dangerouslySetInnerHTML={{ __html: item.role }}
+                />
             </div>
         )
     })
