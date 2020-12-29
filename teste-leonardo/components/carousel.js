@@ -44,7 +44,7 @@ export default function Carousel() {
 
     var slickOptions = {
         centerMode: true,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 3,
         infinite: false,
         dots: false,
@@ -54,9 +54,7 @@ export default function Carousel() {
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
-                    arrows: false,
-                    fade: true
+                    slidesToShow: 1
                 }
             }
         ]
