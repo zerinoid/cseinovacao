@@ -3,8 +3,11 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Item from "./carouselItem"
+import isMobile from "ismobilejs"
 
 export default function Carousel() {
+    const checkMobile = isMobile(window.navigator).phone
+
     const NextArrow = props => {
         const { className, style, onClick } = props
         return (
@@ -14,7 +17,7 @@ export default function Carousel() {
                 className={className}
                 style={{
                     ...style,
-                    right: "14px",
+                    right: checkMobile ? 0 : "14px",
                     height: "auto",
                     width: 22
                 }}
