@@ -69,7 +69,7 @@ export default function Carousel() {
     return (
         <div className={styles.carousel}>
             <div className="max-width">
-                <h4>Recomendações:</h4>
+                <h4 className="mb-3">Recomendações:</h4>
                 <Slider {...slickOptions}>
                     <Item n={1} title={"Organize seu tempo"}>
                         Verifique quanto tempo você tem disponível para realizar
