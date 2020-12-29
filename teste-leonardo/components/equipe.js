@@ -1,4 +1,5 @@
 import Masonry from "react-masonry-css"
+import styles from "./equipe.module.scss"
 
 export default function Equipe() {
     let items = [
@@ -97,7 +98,7 @@ export default function Equipe() {
 
     return (
         <div className="max-width">
-            <h3 className="text-center mb-4">A equipe</h3>
+            <h4 className={`${styles.roxo} text-center mb-4`}>A equipe</h4>
             <Masonry
                 breakpointCols={{ default: 4, 576: 1 }}
                 className="my-masonry-grid"
