@@ -6,7 +6,10 @@ import Item from "./carouselItem"
 import isMobile from "ismobilejs"
 
 export default function Carousel() {
-    const checkMobile = isMobile(window.navigator).phone
+    if (typeof window !== "undefined") {
+        var checkMobile = isMobile(window.navigator).phone
+    }
+    console.log(checkMobile)
 
     const NextArrow = props => {
         const { className, style, onClick } = props
