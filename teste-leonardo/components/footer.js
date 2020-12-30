@@ -9,18 +9,22 @@ export default function Footer() {
             <Container className="max-width">
                 <Row>
                     <Col md={9}>
-                        <p>
+                        <h5 className="mb-4">
                             <strong>FIM DO TESTE!</strong>
-                        </p>
+                        </h5>
                         <p className="mb-5">
-                            <strong>TesteInovação</strong> é uma marca fictícia
-                            com a única finalidade
+                            <span className={styles.nunito}>
+                                <strong>TesteInovação</strong>
+                            </span>{" "}
+                            é uma marca fictícia com a única finalidade
                             <br />
                             de servir como material de estudo da equipe de
                             inovação <br />
                             do Grupo Comunique-se.
                         </p>
-                        <p>IMPORTANTE: Não Compartilhe esse teste.</p>
+                        <p className={styles.nunito}>
+                            IMPORTANTE: Não Compartilhe esse teste.
+                        </p>
                     </Col>
                     <Col md={3}>
                         <div className={styles.redes}>
