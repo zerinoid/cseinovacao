@@ -9,8 +9,8 @@ export default function Contato() {
     return (
         <Container className={`max-width ${styles.container}`}>
             <Row>
-                <Col md={6}>
-                    <h3 className="mb-4">Gostou do teste?</h3>
+                <Col md={6} className="pr-5">
+                    <h5 className="mb-4">Gostou do teste?</h5>
                     <p>
                         Conte para nós oque você gostou no teste e o que você
                         mudaria para melhor avaliar um cadidato à essa vaga. Sua
@@ -32,12 +32,16 @@ export default function Contato() {
                             <Col>
                                 <Form.Control
                                     as="textarea"
-                                    rows={3}
+                                    rows={5}
                                     placeholder="Comentários"
                                 />
                             </Col>
                         </Form.Row>
-                        <Button className="ml-auto d-block px-5">ENVIAR</Button>
+                        <Button
+                            className={`${styles.contactButton} ml-auto d-block`}
+                        >
+                            ENVIAR
+                        </Button>
                     </Form>
                 </Col>
             </Row>
