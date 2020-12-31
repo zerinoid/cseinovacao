@@ -42,6 +42,27 @@ h6 {
     font-size: 1.25rem;
 }
 
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.max-width {
+    max-width: 1390px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pad-mobile {
+    @media (max-width: 767.99px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 // Estilo input placeholders
 textarea::-webkit-input-placeholder,
 input::-webkit-input-placeholder {
@@ -84,27 +105,6 @@ input::moz-placeholder {
     }
 
     color: $text-color;
-}
-
-.nav-flex {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-    align-items: center;
-}
-
-.max-width {
-    max-width: 1390px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pad-mobile {
-    @media (max-width: 767.99px) {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 }
 
 // Css do Masonry
