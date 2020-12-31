@@ -12,7 +12,7 @@ export default function Banner() {
                     <p className={`mb-2 ml-5 ${styles.xs}`}>
                         que vão <strong>impactar</strong> o mercado.
                     </p>
-                    <p className={`mb-0 ${styles.sm}`}>
+                    <p className={`mb-2 mb-dm-0 ${styles.sm}`}>
                         <strong>Você está pronto</strong> para
                     </p>
                     <p className={`ml-3 ${styles.lg}`}>
