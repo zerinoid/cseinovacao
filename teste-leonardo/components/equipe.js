@@ -97,7 +97,7 @@ export default function Equipe() {
     })
 
     return (
-        <div className="max-width">
+        <div className="max-width pad-mobile">
             <h4 className={`${styles.roxo} text-center mb-4`}>A equipe</h4>
             <Masonry
                 breakpointCols={{ default: 4, 992: 3, 768: 2, 576: 1 }}
