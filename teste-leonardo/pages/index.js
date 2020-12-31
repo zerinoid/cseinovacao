@@ -1,5 +1,4 @@
 import Head from "next/head"
-import styles from "../styles/Home.module.scss"
 import Layout from "../components/layout"
 import Banner from "../components/banner"
 import Carousel from "../components/carousel"
