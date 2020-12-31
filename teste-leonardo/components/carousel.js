@@ -3,6 +3,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Item from "./carouselItem"
+import { useMediaQuery } from "react-responsive"
 
 export default function Carousel() {
     let items = [
@@ -69,24 +70,33 @@ export default function Carousel() {
         )
     }
 
-    var slickOptions = {
-        centerMode: true,
-        centerPadding: "160px",
-        slidesToShow: 2,
+    const min1200 = useMediaQuery({ query: "(min-width: 1200px)" })
+    const min992 = useMediaQuery({ query: "(min-width: 992px)" })
+
+    let slickOptions = {
+        centerMode: false,
         infinite: true,
+        slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
         nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
-        responsive: [
-            {
-                breakpoint: 576,
-                settings: {
-                    centerMode: false,
-                    slidesToShow: 1
-                }
-            }
-        ]
+        prevArrow: <PrevArrow />
+    }
+
+    if (min992) {
+        slickOptions = {
+            ...slickOptions,
+            centerMode: true
+        }
+    }
+
+    if (min1200) {
+        slickOptions = {
+            ...slickOptions,
+            centerMode: true,
+            centerPadding: "160px",
+            slidesToShow: 2
+        }
     }
 
     return (
