@@ -9,7 +9,17 @@
     font-weight: 700;
 }
 
+.navbar-nav {
+    background-color: white;
+    padding-left: 0.7rem;
+}
+
 @media (min-width: 768px) {
+    .navbar-nav {
+        background-color: unset;
+        padding-left: 0;
+    }
+
     .btn {
         font-size: 1.3rem;
     }
