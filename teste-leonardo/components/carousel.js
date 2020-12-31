@@ -3,7 +3,6 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Item from "./carouselItem"
-import { useMediaQuery } from "react-responsive"
 
 export default function Carousel() {
     let items = [
@@ -32,7 +31,6 @@ export default function Carousel() {
                 "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus."
         }
     ]
-    const isDesktop = useMediaQuery({ query: "(min-width: 576px)" })
 
     const NextArrow = props => {
         const { className, style, onClick } = props
@@ -43,7 +41,7 @@ export default function Carousel() {
                 className={className}
                 style={{
                     ...style,
-                    right: isDesktop ? 0 : 0,
+                    right: 0,
                     height: "auto",
                     width: 22
                 }}
