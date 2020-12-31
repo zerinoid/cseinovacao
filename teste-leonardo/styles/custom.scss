@@ -5,12 +5,18 @@
     color: $text-color;
 }
 
-.form-control {
-    padding-left: 1.2rem;
-    height: calc(1.5em + 1.2rem + 2px);
+.btn {
+    font-weight: 700;
 }
 
-.btn {
-    font-size: 1.3rem;
-    font-weight: 700;
+@media (min-width: 768px) {
+    .btn {
+        font-size: 1.3rem;
+    }
+
+    .form-control {
+        padding-left: 1.2rem;
+        height: calc(1.5em + 1.2rem + 2px);
+        font-size: 1.35em;
+    }
 }
