@@ -72,6 +72,7 @@ export default function Carousel() {
 
     const min1200 = useMediaQuery({ query: "(min-width: 1200px)" })
     const min992 = useMediaQuery({ query: "(min-width: 992px)" })
+    const min768 = useMediaQuery({ query: "(min-width: 768px)" })
 
     let slickOptions = {
         centerMode: false,
@@ -83,10 +84,20 @@ export default function Carousel() {
         prevArrow: <PrevArrow />
     }
 
+    if (min768) {
+        slickOptions = {
+            ...slickOptions,
+            centerMode: true,
+            centerPadding: "160px",
+            slidesToShow: 1
+        }
+    }
+
     if (min992) {
         slickOptions = {
             ...slickOptions,
-            centerMode: true
+            centerMode: false,
+            slidesToShow: 2
         }
     }
 
