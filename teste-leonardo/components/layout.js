@@ -10,8 +10,8 @@ export default function Layout({ children }) {
     return (
         <>
             <Head>
-                {/* <link rel="icon" href="/icon.png" /> */}
-                <meta name="description" content="Teste petz" />
+                <link rel="icon" href="/images/icon.png" />
+                <meta name="description" content="TesteInovação" />
                 <meta
                     name="viewport"
                     content="width=device-width,initial-scale=1"

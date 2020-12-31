@@ -10,8 +10,7 @@ export default function Home() {
     return (
         <Layout>
             <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
+                <title>TesteInovação</title>
             </Head>
             <Banner />
             <Carousel />
