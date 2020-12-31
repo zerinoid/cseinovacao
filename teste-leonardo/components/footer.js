@@ -26,7 +26,7 @@ export default function Footer() {
                             IMPORTANTE: Não Compartilhe esse teste.
                         </p>
                     </Col>
-                    <Col md={3}>
+                    <Col md={3} className="order-md-last order-first">
                         <div className={styles.redes}>
                             <a
                                 href="https://br.pinterest.com/"
