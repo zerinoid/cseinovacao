@@ -47,7 +47,11 @@ textarea::-webkit-input-placeholder,
 input::-webkit-input-placeholder {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 1.35rem;
+
+    @media (min-width: 768px) {
+        font-size: 1.35rem;
+    }
+
     color: $text-color;
 }
 
@@ -55,6 +59,11 @@ textarea::-webkit-input-placeholder,
 input::-ms-input-placeholder {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-style: italic;
+
+    @media (min-width: 768px) {
+        font-size: 1.35rem;
+    }
+
     color: $text-color;
 }
 
@@ -69,6 +78,11 @@ textarea::-webkit-input-placeholder,
 input::moz-placeholder {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-style: italic;
+
+    @media (min-width: 768px) {
+        font-size: 1.35rem;
+    }
+
     color: $text-color;
 }
 
