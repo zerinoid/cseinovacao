@@ -10,7 +10,7 @@ export default function Contato() {
         <Container className={`max-width ${styles.container}`}>
             <Row>
                 <Col md={6} className="pr-5">
-                    <h5 className="mb-4">Gostou do teste?</h5>
+                    <h5 className="mb-4 mb-md-5">Gostou do teste?</h5>
                     <p>
                         Conte para nós oque você gostou no teste e o que você
                         mudaria para melhor avaliar um cadidato à essa vaga. Sua
@@ -32,7 +32,7 @@ export default function Contato() {
                             <Col>
                                 <Form.Control
                                     as="textarea"
-                                    rows={5}
+                                    rows={4}
                                     placeholder="Comentários"
                                 />
                             </Col>
