@@ -6,7 +6,7 @@
     img {
         width: 55vw;
 
-        @media (min-width: 576px) {
+        @media (min-width: 768px) {
             width: unset;
         }
     }
