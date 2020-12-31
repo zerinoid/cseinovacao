@@ -112,7 +112,7 @@ export default function Carousel() {
 
     return (
         <div className={styles.carousel}>
-            <div className="max-width">
+            <div className="max-width pad-mobile">
                 <h4 className="mb-3">Recomendações:</h4>
                 <Slider {...slickOptions}>
                     {items.map(item => {
